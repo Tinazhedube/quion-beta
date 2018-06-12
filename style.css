@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+h2{
+    font-size: 2.0em;
+}
+body{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+header{
+    font-size: 1.6em;
+    width: 768px;
+    margin: 0 auto;
+   
+    position: relative;
+    height: 550px;
+    /* background-color: rgb(244, 244, 172); */
+    background-image: url(images/quion.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -1;
+}
+.main{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.6em;
+    background-color:#e5e5e5;
+    height: 50px;
+    margin-top: -90px;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "segoe UI";
+}
+.main img{
+    height: 20px;
+    margin-right: 6px;
+}
+.left, .right{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.world{
+    margin-left: 8px;
+}
+.dummy{
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-decoration: underline;
+}
+.dummy:hover{
+    color: #ff0000;
+}
+.bold{
+    font-weight: bold;
+    margin-right: 8px;
+}
+.main p{
+    padding: 30px;
+}
+nav{
+    width: 100%;
+   font-family: "Agency FB";
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    position: fixed;
+    z-index: 99;
+}
+.cen{
+    margin: 0 auto;
+    width: 768px;
+     display: flex;
+    justify-content: space-between;
+}
+
+button{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 4px 8px;
+    border: none;
+    background-color: #ff0000;
+    color: white;
+    margin-top: 15px;
+    border-radius: 2px; 
+}
+button:hover {
+     background-color: #000000bd;
+}
+.info{
+    position: absolute;
+    top: 30%;
+    font-family: "Agency FB";
+    font-size: 16px;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    font-family:  sans-serif
+}
+.logo{
+    font-weight: bold;
+    font-size: 2.0em;
+    font-family: "Agency FB";
+    padding:10px;
+}
+ul li{
+    display: inline;
+}
+
+ul{
+    padding: 20px;
+}
+
+li:not(:last-child){
+    margin-right: 10px;
+}
+
+.recent{
+    /* border: 1px red solid; */
+    min-height: 300px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.images{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 2px 5px gray, 0 1px 1px gray;
+}
+.gallery{
+    width: 100%;
+    color: white;
+    background-color: black;
+    font-family: "Agency FB";
+}
+.gallery h2{
+    width: 75%;
+    margin: 0 auto;
+    font-size: 34px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.show{
+    padding-top: 60px;
+    width: 75%;
+    overflow: hidden;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33.3333333% 33.333333% 33.3333333%;
+    grid-template-rows: 33.3333333vw 33.3333333vw;
+}
+.gall{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 33.3333333vw);
+    grid-auto-rows: 33.3333333vw;
+    }
+    .item{
+        background-color: black;
+        color: white;
+    }
+    .item img{
+        width: 100%;
+        height: 100%;
+    }
+
+.images img{
+    width: 200px;
+    height: 200px;
+
+}
+.posts{
+    border: 2px solid #ff0000;
+    color: #ff0000;
+    font-weight: bold;
+    flex-grow: 0;
+    width: 149px;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.contact{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "agency fb";
+
+}
+.contact h2{
+     font-size: 34px;
+     margin-bottom: 20px;
+}
+
+.contact .layout{
+    width: 75%;
+    margin: 0 auto;
+}
+form{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    background-color: black;
+    color: white;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+}
+#email{
+    padding: 10px;
+}
+ #message{
+    padding: 10px;
+    height: 150px;
+}
+
+label{
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.submit{
+    width: 60px;
+    margin: 30px;
+    padding: 6px;
+}
+.submit:hover{
+    background-color: rgba(0, 0, 0, 0.756);
+}
+
+footer{
+    width: 100%;
+ background-color: black;
+  padding: 15px;
+}
+.foot{
+   
+    width: 75%;
+    color: white;
+    font-size: 16px;
+    font-family: "agency fb";
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.social-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.address{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+@media screen and (min-width: 200px) and (max-width: 320px) {
+    .info{
+        display: none;
+    }
+
+    header{
+        background-position: center;
+    }
+}
